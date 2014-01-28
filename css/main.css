@@ -161,22 +161,27 @@ a:visited { color: #a0a; }
 .navigationbar {
   width: 1024px;
   background-color: gray;
-  margin: 50px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin: auto;
   height: 50px;
 }
 .about {
   float: left;
-  width: 60px;
+  width: 256px;
   text-align: center;
-  height: 450px;
+  height: 50px;
   color: black;
 }
 .professional {
   float: left;
-  width: 60px;
+  width: 256px;
   text-align: center;
-  height: 40px;
+  height: 50px;
+  color: black;
+  }
+  .home {
+    float: left;
+  width: 256px;
+  text-align: center;
+  height: 50px;
   color: black;
   }
