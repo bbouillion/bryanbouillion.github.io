@@ -38,22 +38,4 @@ a {
 	text-transform: None;
 	color: Red;
 }
-.navigationbar {
-	width: 628px;
-	background-color: gray;
-	height: 40px;
-}
-.about {
-	float: left;
-	width: 60px;
-	text-align: center;
-	height: 40px;
-	color: white;
-}
-.professional {
-	float: left;
-	width: 60px;
-	text-align: center;
-	height: 40px;
-	color: white;
-	}
+.

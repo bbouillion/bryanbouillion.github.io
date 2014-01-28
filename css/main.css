@@ -158,3 +158,25 @@ a:visited { color: #a0a; }
 .post pre.terminal code {
   background-color: #333;
 }
+.navigationbar {
+  width: 1024px;
+  background-color: gray;
+  margin: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  height: 50px;
+}
+.about {
+  float: left;
+  width: 60px;
+  text-align: center;
+  height: 450px;
+  color: black;
+}
+.professional {
+  float: left;
+  width: 60px;
+  text-align: center;
+  height: 40px;
+  color: black;
+  }
