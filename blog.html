@@ -1,38 +1,13 @@
-<head>
-<TITLE>Bryan Bouillion Blog Page</TITLE>
-<LINK rel="stylesheet" href="style.css">
-</HEAD>
-</head>
-<body>
-	<H1>Bryan Bouillion | Blog Page</H1>
-	<div><a href="index.html"> Home Page</div>
-	<div><a href="about.html">About</div>
-	<div><a href="contact.html"> Contact </a></div>
-	<div><a href="boiler plate.html"> Boiler Plate </a></div>
-	<div><a href="blog.html">Blog</a></div>
-<h3> Blog Day 1 </h3>
-<P>
-Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
+---
+layout: default
+title: Bryan Bouillion Jekyll Actual Blog Page
+---
 
-Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.
-
-Completely synergize resource sucking relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
-</P>
-
-<h3>Blog Day 2</h3>
-<p>
-Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
-
-Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.
-
-Completely synergize resource sucking relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
-</p>
-
-<h3>Blog Day 3</h3>
-<p>
-Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
-
-Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.
-
-Completely synergize resource sucking relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
-</p>
+<div id="home">
+  <h1>Bryan Bouillion Blog Posts</h1	>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

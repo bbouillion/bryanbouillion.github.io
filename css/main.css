@@ -159,29 +159,103 @@ a:visited { color: #a0a; }
   background-color: #333;
 }
 .navigationbar {
-  width: 1024px;
+  width: 628px;
   background-color: gray;
-  margin: auto;
+  margin: auto; 
   height: 50px;
 }
 .about {
   float: left;
-  width: 256px;
+  width: 157px;
   text-align: center;
   height: 50px;
   color: black;
+  font-size: 24px;
+  margin: auto;
 }
 .professional {
   float: left;
-  width: 256px;
+  width: 157px;
   text-align: center;
   height: 50px;
   color: black;
+  font-size: 24px;
   }
   .home {
     float: left;
-  width: 256px;
+  width: 157px;
   text-align: center;
   height: 50px;
   color: black;
+  font-size: 24px;
   }
+  img  {
+    max-width: 200px;
+    max-height: 200px;
+  }
+  .blog {
+  float: left;
+  width: 157px;
+  text-align: center;
+  height: 50px;
+  color: black;
+  font-size: 24px;
+  }
+  .photoholder {
+    width: 628px;
+    margin: auto;
+  }
+
+/*@media (min-width: 300px) { 
+  body {background: red;} 
+  .navigationbar {
+  max-width: 100%;
+  max-height: 400%;
+}
+.home {
+  max-width: 25%;
+  font-size: 75%;
+}
+.about {
+  max-width: 25%;
+  font-size: 75%;
+}
+.professional {
+  max-width: 25%;
+  font-size: 75%;
+}
+.blog {
+  max-width: 25%;
+  font-size: 75%;
+}
+}
+
+@media (min-width: 700px) { 
+  body {background: blue;} 
+.navigationbar {
+  max-width: 100%;
+  max-height: 25%;
+}
+.home {
+  max-width: 25%;
+  font-size: 100%;
+}
+.about {
+  max-width: 25%;
+  font-size: 100%;
+}
+.professional {
+  max-width: 25%;
+  font-size: 100%;
+}
+.blog {
+  max-width: 25%;
+  font-size: 100%;
+}
+}
+
+@media (min-width: 1100px) { 
+  body {background: green;} 
+}
+}
+*/
